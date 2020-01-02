@@ -1,0 +1,22 @@
+{
+  "name": "rocketSeat",
+  "version": "1.0.0",
+  "description": "curso",
+  "main": "index.js",
+  "author": "fernando",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "dev": "webpack --mode=development -w"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6"
+  }
+}
